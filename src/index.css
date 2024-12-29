@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+p,
+a,
+button,
+div {
+  @apply text-yellow-900;
+}
+
+body {
+  @apply bg-yellow-50;
+}
